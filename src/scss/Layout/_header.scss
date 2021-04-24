@@ -1,0 +1,244 @@
+header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    background-color: transparent;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  @media (max-width: 991px) {
+    header {
+      background-color: #0f2133;
+    }
+  }
+  header .navbar-default {
+    margin-bottom: 0;
+    padding: 30px 0;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  @media (min-width: 992px) {
+    header .navbar-default {
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+  header .navbar-default .flex-parent {
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    header .navbar-default .flex-parent {
+      display: flex !important;
+      jutify-content: flex-start;
+    }
+  }
+  header .navbar-default .flex-parent .menu-left {
+    flex-grow: 2;
+    margin-left: 30px;
+  }
+  header .navbar-default .navbar-nav {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+  }
+  header .navbar-default .navbar-nav li a {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #abb7c4;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  header .navbar-default .navbar-nav li a:hover {
+    color: #dcf836;
+  }
+  header .navbar-default .navbar-nav li a i {
+    float: right;
+    right: 0;
+    margin-top: 3px;
+  }
+  header .navbar-default .navbar-nav li.btn a {
+    background-color: #dd003f;
+    color: #ffffff;
+    padding: 11px 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+  header .navbar-default .navbar-nav .dropdown .dropdown-menu.level1 {
+    position: absolute;
+    min-width: 180px;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    left: -15px;
+  }
+  header .navbar-default .navbar-nav .dropdown .dropdown-menu.level1 .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .navbar-default .navbar-nav .dropdown .dropdown-menu.level1 li a {
+    padding: 10px 30px;
+    color: #020d18;
+  }
+  header .navbar-default .navbar-nav .dropdown .dropdown-menu.level1 li a i {
+    margin-top: 0;
+  }
+  header .navbar-default .navbar-nav .dropdown .dropdown-menu.level2 {
+    position: absolute;
+    top: -21px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-width: 180px;
+    left: 177px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    bottom: auto !important;
+  }
+  @media (max-width: 991px) {
+    header .navbar-default .navbar-nav .dropdown .dropdown-menu.level2 {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      box-shadow: none;
+      padding: 0;
+    }
+  }
+  header .navbar-default .navbar-nav .dropdown.first.open a {
+    color: #dcf836;
+    background: none;
+  }
+  header .top-search {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 4px solid #020d18;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  header .top-search select,
+  header .top-search input {
+    height: 46px;
+    border: none;
+    background-color: #233a50 !important;
+    font-family: 'Nunito', sans-serif;
+    font-size: #abb7c4;
+    color: #abb7c4;
+    font-weight: 300;
+    text-transform: none;
+  }
+  header .top-search select {
+    width: 20%;
+    border-right: 1px solid #020d18;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    // background: url('../images/uploads/drop-icon.png') no-repeat right 20px center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  header .top-search input::-webkit-input-placeholder {
+    color: #abb7c4;
+  }
+  header .top-search input {
+    // background: url('../images/uploads/topsearch.png') no-repeat right 20px center;
+  }
+  header #nav-icon1 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 0px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  header #nav-icon1 span {
+    display: block;
+    position: absolute;
+    height: 2.5px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+  header #nav-icon1 span:nth-child(1) {
+    top: 0px;
+  }
+  header #nav-icon1 span:nth-child(2) {
+    top: 6px;
+  }
+  header #nav-icon1 span:nth-child(3) {
+    top: 12px;
+  }
+  header #nav-icon1.open span:nth-child(1) {
+    top: 6px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  header #nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+  header #nav-icon1.open span:nth-child(3) {
+    top: 6px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  header#header-light {
+    background-color: #fff;
+  }
+  header#header-light .navbar-default {
+    padding: 15px 0;
+  }
+  header#header-light .navbar-default .navbar-nav li:first-child a {
+    color: #020d18;
+  }
+  header#header-light .navbar-default .navbar-nav li a:hover {
+    color: #dd003f;
+  }
+  header#header-light .navbar-default .navbar-nav .dropdown.first.open a {
+    color: #020d18;
+  }
+  header#headerv3-light {
+    background-color: #020d18;
+  }
