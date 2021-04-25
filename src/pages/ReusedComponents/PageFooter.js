@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import logo from "../../assets/images/logo.png";
 
 export default function PageFooter() {
-    return (
-        <div>
-            footer
-        </div>
-    )
+  return <div className="container">
+      <img src= {logo} alt=""/>
+     </div>;
 }
