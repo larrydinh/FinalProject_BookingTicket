@@ -8,22 +8,28 @@ module.exports = {
   theme: {
     //Responsive
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',  
+      sm: '640px', //iphone
+      md: '768px', //ipad 
+      lg: '1024px', //ipad pro
+      xl: '1280px', //generic laptop
+      '2xl': '1536px',  //macbook air/pro
+
     },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
       cPrimary: '#3c3b37',
       cSecondary: '#0f7c90',
       cOrange: '#eb8a2f',
       cWhite: '#ffffff',
 
-
+      //tailwind color for background, text, ...
+      //https://tailwindcss.com/docs/customizing-colors#color-palette-reference
+      gray: colors.trueGray,
+      red: colors.red,
+      blue: colors.lightBlue,
+      yellow: colors.amber,
+      white: colors.white,
     },
     spacing: {
       px: '1px',

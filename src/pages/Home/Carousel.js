@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function MovieItems() {
+export default function Carousel() {
     return (
         <div>
-            
+            carousel
         </div>
     )
 }
